@@ -116,15 +116,15 @@ nav ul li a:hover::after {
 }
 
 .hero::before {
-  width: 400px;
-  height: 400px;
+  width: 40rem;
+  height: 40rem;
   top: 20%;
   left: 10%;
 }
 
 .hero::after {
-  width: 600px;
-  height: 600px;
+  width: 60rem;
+  height: 60rem;
   top: 55%;
   left: 60%;
   background: radial-gradient(circle, rgba(255,255,255,0.15), transparent 70%);
@@ -133,9 +133,9 @@ nav ul li a:hover::after {
 
 /* Circles movement */
 @keyframes moveCircles {
-  0% { transform: translate(-50px, -30px) scale(1); }
-  50% { transform: translate(80px, 60px) scale(1.1); }
-  100% { transform: translate(-50px, -30px) scale(1); }
+  0% { transform: translate(-5rem, -3rem) scale(1); }
+  50% { transform: translate(8rem, 6rem) scale(1.1); }
+  100% { transform: translate(-5rem, -3rem) scale(1); }
 }
 
 /* Gradient background animation */
