@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Badhan Saha — Portfolio</title>
+  <meta name="description" content="Portfolio of Badhan Saha — Front-end developer & designer" />
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+<!-- ====== Header Section Start ====== -->
+<header class="site-header">
+  <div class="header-container">
+    <!-- Logo -->
+    <a href="#" class="logo">
+      <!-- Inline SVG Logo -->
+      <svg class="logo-mark" width="80" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="20" cy="20" r="18" fill="url(#grad)"/>
+        <text x="50%" y="55%" text-anchor="middle" font-size="16" fill="#fff" font-family="Poppins" font-weight="700">BS</text>
+        <defs>
+          <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#007bff"/>
+            <stop offset="100%" stop-color="#00bcd4"/>
+          </linearGradient>
+        </defs>
+      </svg>
+    </a>
+
+    <!-- Navigation -->
+    <nav class="nav">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- ====== Header Section End ====== -->
+  <main>
+  <!-- ====== Hero Section Start ====== -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>Hello, I'm <span>Badhan Saha</span></h1>
+    <p>A passionate Front-End Web Developer who loves crafting clean and responsive web designs.</p>
+
+    <div class="hero-buttons">
+      <a href="#" class="btn btn-primary">View Portfolio</a>
+      <a href="#" class="btn btn-outline">Contact Me</a>
+    </div>
+  </div>
+</section>
+<!-- ====== Hero Section End ====== -->
+    
+
+    <!-- About -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>I am a front-end developer focused on building clean interfaces and enjoyable user experiences. Currently learning new techniques and working on projects showcased below.</p>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2>Selected Projects</h2>
+        <div class="projects-grid">
+          <article class="project">
+            <div class="project-media" aria-hidden="true">Preview</div>
+            <div class="project-body">
+              <h3>Responsive Landing Page</h3>
+              <p>Semantic HTML and CSS Grid. Mobile-first design and fast load time.</p>
+              <div class="project-links">
+                <a href="#" class="link">Live</a>
+                <a href="#" class="link">Code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-media" aria-hidden="true">Preview</div>
+            <div class="project-body">
+              <h3>Login UI Component</h3>
+              <p>Accessible form components optimized for keyboard users.</p>
+              <div class="project-links">
+                <a href="#" class="link">Live</a>
+                <a href="#" class="link">Code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-media" aria-hidden="true">Preview</div>
+            <div class="project-body">
+              <h3>Portfolio Template</h3>
+              <p>A clean portfolio template to show work quickly.</p>
+              <div class="project-links">
+                <a href="#" class="link">Live</a>
+                <a href="#" class="link">Code</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul class="skill-list">
+          <li>HTML5</li>
+          <li>CSS3 (Flexbox & Grid)</li>
+          <li>Responsive Design</li>
+          <li>Basic JavaScript</li>
+          <li>Accessibility</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>If you want to work together, send a message — I usually reply within a day.</p>
+       <form action="#">
+     <div class="child_form">
+       <label for="username">Name:</label>
+       <input type="text" name="username" id="username" required />
+     </div>
+     <div class="child_form">
+       <label for="email">Email:</label>
+       <input type="email" name="user mail" id="email" required />
+     </div>
+     <div class="child_form">
+       <label for="password">Password:</label>
+       <input type="password" name="password" id="password" required />
+     </div>
+     <div class="child_form">
+       <label for="country">Country:</label>
+       <input list="con" />
+       <datalist id="con">
+         <option value="Bangladesh">Bangldesh</option>
+         <option value="India">India</option>
+         <option value="Singapore">Singapore</option>
+         <option value="Russia">Russia</option>
+         <option value="USA">USA</option>
+         <option value="France">France</option>
+         <option value="Pakistan">Pakistan</option>
+         <option value="Nepal">Nepal</option>
+         <option value="China">China</option>
+         <option value="Spain">Spain</option>
+       </datalist>
+     </div>
+     <div class="child_form">
+       <label for="phone">Phone number:</label>
+       <input type="number" name="phn" id="phone" required />
+     </div>
+      <div class="child_form">
+       <label for="time">Time:</label>
+       <input type="time" name="time" id="time" />
+     </div>
+      <div class="child_form">
+       <label for="date">Date Of Birth:</label>
+       <input type="date" name="don" id="date" />
+     </div>
+     <div class="child_form">
+       <label for="file">Choose file:</label>
+       <input type="file" name="file" id="file" />
+     </div>
+      <div class="child_form">
+       <input type="radio" name="gnd1" id="gender" />
+       <label for="gender">Male</label>
+       <input type="radio" name="gnd1" id="gender">
+       <label for="gender">Female</label>
+     </div>
+      <div class="child_form">
+       <textarea name="" id="" cols="30" rows="10" placeholder="How can I help?"></textarea>
+     </div>
+     <input type="submit" value="send message"></button>
+   </form>
+      </div>
+    </section>
+  </main>
+
+
+<!-- ====== Footer Section ====== -->
+<footer class="footer">
+  <div class="footer-container">
+    
+    <div class="footer-about">
+      <h3>About This Blog</h3>
+      <p>Welcome to my personal blog where I share my thoughts, web development tips, and creative projects. Stay connected for more updates!</p>
+    </div>
+
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-social">
+      <h3>Follow Me</h3>
+      <ul>
+        <li><a href="#"><i class="fab fa-facebook-f"> </i> Facebook</a></li>
+        <li><a href="#"><i class="fab fa-instagram"> </i> Instagram</a></li>
+        <li><a href="#"><i class="fab fa-twitter"> </i> Twitter</a></li>
+        <li><a href="#"><i class="fab fa-linkedin-in"> </i> LinkedIn</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h3>Contact</h3>
+      <p><i class="fas fa-envelope"> </i> badhansaha <br /> .dev
+      @gmail.com</p>
+      <p><i class="fas fa-phone"> </i> +880 1234 567 890</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 <span>Badhan Saha</span> | All Rights Reserved.</p>
+  </div>
+</footer>
+</body>
+</html>
