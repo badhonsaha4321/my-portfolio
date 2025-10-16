@@ -12,8 +12,9 @@ Welcome to my personal portfolio! This showcases my skills, projects, and dedica
 - Clean, modern, and professional UI  
 - Sections included:  
   - **Home**  
-  - **About Me**  
-  - **Projects**  
+  - **About**  
+  - **Projects**
+  - **Skills**  
   - **Contact**
 
 ---
